@@ -211,4 +211,8 @@ PRODUCT_PACKAGES += \
     YellowAccent \
     WhiteAccent
 
+# init file
+PRODUCT_COPY_FILES += \
+    vendor/cyber/prebuilt/common/etc/init.local.rc:root/init.cyber.rc
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
