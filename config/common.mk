@@ -172,6 +172,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Themes
 PRODUCT_PACKAGES += \
+    SettingsDarkTheme \
     SystemDarkTheme
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
