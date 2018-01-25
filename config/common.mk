@@ -173,6 +173,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Themes
 PRODUCT_PACKAGES += \
     DuiDarkTheme \
+    GBoardDarkTheme \
     SettingsDarkTheme \
     SystemDarkTheme
 
