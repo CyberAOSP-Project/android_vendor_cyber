@@ -179,9 +179,30 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AmberAccent \
+    BlackAccent \
+    BlueAccent \
+    BlueGreyAccent \
+    BrownAccent \
+    CyanAccent \
+    DeepOrangeAccent \
+    DeepPurpleAccent \
     DuiDark \
     GBoardDark \
+    GreenAccent \
+    GreyAccent \
+    IndigoAccent \
+    LightBlueAccent \
+    LightGreenAccent \
+    LimeAccent \
+    OrangeAccent \
+    PinkAccent \
+    PurpleAccent \
+    RedAccent \
     SettingsDark \
-    SystemDark
+    SystemDark \
+    TealAccent \
+    YellowAccent \
+    WhiteAccent
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
