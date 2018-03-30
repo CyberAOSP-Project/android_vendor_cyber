@@ -183,7 +183,7 @@ PRODUCT_PACKAGES += \
     SystemBlackTheme \
     SystemUIBlackTheme
 
-# Overlays
+# Accents
 PRODUCT_PACKAGES += \
     AmberAccent \
     BlackAccent \
