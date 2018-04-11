@@ -175,13 +175,16 @@ PRODUCT_PACKAGES += \
     DuiDarkTheme \
     GBoardDarkTheme \
     SettingsDarkTheme \
-    SystemDarkTheme
+    SystemDarkTheme \
+    SystemUIDarkTheme \
+    UpdaterDark
 
 # Themes Black
 PRODUCT_PACKAGES += \
     SettingsBlackTheme \
     SystemBlackTheme \
-    SystemUIBlackTheme
+    SystemUIBlackTheme \
+    UpdaterBlackAF
 
 # Accents
 PRODUCT_PACKAGES += \
