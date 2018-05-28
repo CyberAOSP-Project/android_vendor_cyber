@@ -170,12 +170,17 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opa.eligible_device=true
 
-# Themes
+# Themes Dark
 PRODUCT_PACKAGES += \
     DuiDarkTheme \
     GBoardDarkTheme \
     SettingsDarkTheme \
     SystemDarkTheme
+
+# Themes Black
+PRODUCT_PACKAGES += \
+    SettingsBlackTheme \
+    SystemBlackTheme
 
 # Overlays
 PRODUCT_PACKAGES += \
