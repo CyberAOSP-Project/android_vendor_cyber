@@ -124,7 +124,11 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     media.recorder.show_manufacturer_and_model=true
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/cyber/overlay
-DEVICE_PACKAGE_OVERLAYS += vendor/cyber/overlay/common
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    vendor/cyber/overlay/common \
+    vendor/cyber/overlay/themes
 
 # Key disabler package
 PRODUCT_PACKAGES += \
