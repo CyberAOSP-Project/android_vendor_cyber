@@ -142,4 +142,7 @@ include vendor/cyber/config/bootanimation.mk
 # Fonts
 include vendor/cyber/config/fonts.mk
 
+# Sounds
+include vendor/cyber/config/sounds.mk
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
