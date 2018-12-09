@@ -136,4 +136,10 @@ PRODUCT_BOOT_JARS += \
 # Branding
 include vendor/cyber/config/branding.mk
 
+# Bootanimation
+include vendor/cyber/config/bootanimation.mk
+
+# Fonts
+include vendor/cyber/config/fonts.mk
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
