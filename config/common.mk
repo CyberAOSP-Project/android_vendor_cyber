@@ -133,6 +133,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     org.cyberaosp.keydisabler
 
+# CyberAOSP Packages
+PRODUCT_PACKAGES += \
+    WellbeingPrebuilt
+
 # Branding
 include vendor/cyber/config/branding.mk
 
