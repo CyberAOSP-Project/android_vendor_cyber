@@ -4,7 +4,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := WellbeingPrebuilt
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := WellbeingPrebuilt/WellbeingPrebuilt.apk
+LOCAL_SRC_FILES := app/WellbeingPrebuilt.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true

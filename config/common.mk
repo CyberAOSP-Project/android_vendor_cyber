@@ -51,7 +51,7 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/cyber/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/cyber/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions \
-    vendor/cyber/prebuilt/common/bin/50-lineage.sh:system/addon.d/50-lineage.sh \
+    vendor/cyber/prebuilt/common/bin/50-base.sh:system/addon.d/50-base.sh \
     vendor/cyber/prebuilt/common/bin/blacklist:system/addon.d/blacklist
 
 ifeq ($(AB_OTA_UPDATER),true)
