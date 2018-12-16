@@ -135,7 +135,10 @@ PRODUCT_BOOT_JARS += \
 
 # CyberAOSP Packages
 PRODUCT_PACKAGES += \
-    WellbeingPrebuilt
+    WellbeingPrebuilt \
+    Gallery2 \
+    LatinIME \
+    Launcher3
 
 # Branding
 include vendor/cyber/config/branding.mk
