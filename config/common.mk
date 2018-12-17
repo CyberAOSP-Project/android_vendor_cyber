@@ -138,7 +138,11 @@ PRODUCT_PACKAGES += \
     WellbeingPrebuilt \
     Gallery2 \
     LatinIME \
-    Launcher3
+    Launcher3 \
+    GContacts \
+    GDeskClock \
+    GDialer \
+    GMessaging
 
 # Branding
 include vendor/cyber/config/branding.mk
@@ -151,5 +155,13 @@ include vendor/cyber/config/fonts.mk
 
 # Sounds
 include vendor/cyber/config/sounds.mk
+
+# Fix Dialer
+PRODUCT_COPY_FILES +=  \
+    vendor/cyber/prebuilt/common/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
+
+# Additional
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.opa.eligible_device=true
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
