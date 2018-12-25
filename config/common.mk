@@ -146,7 +146,9 @@ PRODUCT_PACKAGES += \
     GContacts \
     GDeskClock \
     GDialer \
-    GMessaging
+    GMessaging \
+    CyberSettings \
+    OmniStyle
 
 # Branding
 include vendor/cyber/config/branding.mk
