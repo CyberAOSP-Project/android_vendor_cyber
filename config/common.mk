@@ -205,4 +205,8 @@ PRODUCT_PACKAGES += \
     PrimaryWarmWhite \
     PrimaryDarkBlue
 
+# Themes
+PRODUCT_PACKAGES += \
+    SystemDarkTheme
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
