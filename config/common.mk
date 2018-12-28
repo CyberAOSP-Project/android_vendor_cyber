@@ -147,8 +147,7 @@ PRODUCT_PACKAGES += \
     GDeskClock \
     GDialer \
     GMessaging \
-    CyberSettings \
-    OmniStyle
+    OmniJaws
 
 # Branding
 include vendor/cyber/config/branding.mk
