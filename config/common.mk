@@ -170,41 +170,6 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opa.eligible_device=true
 
-# Omni Poor Man Themes
-PRODUCT_PACKAGES += \
-    DocumentsUITheme \
-    DialerTheme \
-    TelecommTheme
-
- PRODUCT_PACKAGES += \
-    NotificationsDark \
-    NotificationsLight \
-    NotificationsPrimary
-
- PRODUCT_PACKAGES += \
-    AccentSluttyPink \
-    AccentPixel \
-    AccentGoldenShower \
-    AccentDeepOrange \
-    AccentOmni \
-    AccentWhite \
-    AccentTeal \
-    AccentFromHell \
-    AccentBlueMonday \
-    AccentSmokingGreen \
-    AccentDeadRed \
-    AccentRottenOrange \
-    AccentDeepPurple
-
- PRODUCT_PACKAGES += \
-    PrimaryAlmostBlack \
-    PrimaryBlack \
-    PrimaryOmni \
-    PrimaryWhite \
-    PrimaryColdWhite \
-    PrimaryWarmWhite \
-    PrimaryDarkBlue
-
 # Themes
 PRODUCT_PACKAGES += \
     SystemDarkTheme
